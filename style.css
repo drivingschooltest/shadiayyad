@@ -408,6 +408,7 @@ h1, h2, h3{
   justify-content: center;   /* 🔥 center horizontally */
   margin-top: 6px;
   white-space: nowrap;
+  font-size: 14px;
 }
 
 .landing-location a{
@@ -421,7 +422,7 @@ h1, h2, h3{
 }
 
 .loc-emoji{
-  font-size: 20px;
+  font-size: 14px;
   line-height: 1;
   color: #ffffff;
 }

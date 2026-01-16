@@ -217,8 +217,8 @@ function showResults() {
   document.getElementById("quizView").classList.add("hidden");
   document.getElementById("resultsView").classList.remove("hidden");
 
-  const phone = localStorage.getItem("quiz_phone") || "70925447";
-  document.getElementById("resultUser").textContent = `El Cheikh Driving School — ${phone}`;
+  const phone = localStorage.getItem("quiz_phone") || "76900556 - 81900556";
+  document.getElementById("resultUser").textContent = `Shadi Ayyad Driving School — ${phone}`;
 
   const passed = quiz.score >= 24;
 
@@ -297,9 +297,9 @@ function startNewExam() {
 }
 
 async function init() {
-  const phone = localStorage.getItem("quiz_phone") || "70925447";
+  const phone = localStorage.getItem("quiz_phone") || "76900556 - 81900556";
 
-  document.getElementById("userName").textContent = "El Cheikh Driving School";
+  document.getElementById("userName").textContent = "Shadi Ayyad Driving School";
   document.getElementById("userPhone").textContent = phone;
 
   QUESTIONS = await loadQuestions();
